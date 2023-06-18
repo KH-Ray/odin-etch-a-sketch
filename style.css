@@ -1,0 +1,44 @@
+html {
+  text-align: center;
+  font-family: Monaco, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+button {
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  border: 3px solid #000;
+  padding: 8px 16px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+
+.square {
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.color {
+  background-color: #808080;
+  border: 1px solid black;
+}
+
+.container {
+  margin-top: 50px;
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  border: 5px solid black;
+  border-radius: 5px;
+  height: 720px;
+  width: 720px;
+}
